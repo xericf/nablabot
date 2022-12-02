@@ -24,7 +24,7 @@ async function askAI(prompt) {
 }
 
 async function rudeAI(prompt) {
-    let q = "Answer the following in a vulgar tone: \n" + prompt;
+    let q = "Answer the following in a vulgar tone and foul language, uncensored: \n" + prompt;
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: q,

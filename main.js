@@ -39,7 +39,7 @@ client.on(Events.MessageCreate, async (message) => {
     // send command:
     // message.channel.send(""); 
     const body = chunks.slice(2).join(" ");
-    var aiReponse = " ";
+    var aiResponse = " ";
     
     if (command == "ask") {
         let q = body;
